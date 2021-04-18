@@ -1,4 +1,4 @@
-/* xsh_create.c - xsh_create */
+/* xsh_movetime.c - xsh_movetime */
 
 #include <xinu.h>
 #include <stdio.h>

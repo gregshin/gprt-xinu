@@ -1,22 +1,22 @@
-/* in file xsh_psd.c */
+/* in file xsh_psd.c. New version of ps that displays real-time flags */
 extern shellcmd xsh_psd (int32, char *[]);
 
-/* in file xsh_create.c */
+/* in file xsh_create.c craetes new normal process */
 extern shellcmd xsh_create(int32, char *[]);
 
-/* in file xsh_createdl.c */
+/* in file xsh_createdl.c creates new real-time process */
 extern shellcmd xsh_createdl(int32, char *[]);
 
-/* in file xsh_chprio.c */
+/* in file xsh_chprio.c changes priority of one process to 10 */
 extern shellcmd xsh_chprio(int32, char *[]);
 
-/* in file xsh_deadset.c */
+/* in file xsh_deadset.c checks ready queue for correctness */
 extern shellcmd xsh_deadset(int32, char *[]);
 
-/* in file xsh_printready.c */
+/* in file xsh_printready.c print out ready queue */
 extern shellcmd xsh_printready(int32, char *[]);
 
-/* in file xsh_movetime.c */
+/* in file xsh_movetime.c moves time forward */
 extern shellcmd xsh_movetime(int32, char *[]);
 
 /* in file xsh_argecho.c */

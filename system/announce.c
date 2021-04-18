@@ -3,15 +3,11 @@
 
 void announce(void)
 {
-    // struct procent *thisproc;
-    // intmask 	mask;    	/* interrupt mask		*/
-    // thisproc = &proctab[currpid];
-    
+
+    // just runs
     while(1)
     {
-        // mask = disable();
-        // kprintf("%s", thispric->prname);
-        // restore(mask);
+
     }
 
 }

@@ -1,16 +1,16 @@
-/* in file createdl.c */
-extern	pid32	createdl(void *, uint32, int32, char *, uint32, ...);
+/* in file createdl.c – Creates new process with deadline */
+extern	pid32 createdl(void *, uint32, int32, char *, uint32, ...);
 
-/* in file announce.c */
+/* in file announce.c – generic process */
 extern void announce(void);
 
-/* in file deadset.c */
+/* in file deadset.c – enforces ready queue in order*/
 extern void deadset(void);
 
-/* in file passtime.c */
+/* in file passtime.c – decrease time remaining on deadline*/
 extern void passtime(int32);
 
-/* in file mostprio.c */
+/* in file rtprio.c – change process priority to match current process */
 extern void rtprio(pid32);
 
 /* in file addargs.c */

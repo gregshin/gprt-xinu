@@ -6,7 +6,7 @@
 
 
 /*------------------------------------------------------------
-* xsh_XXX - shell command to do whatever you want it to
+* xsh_createdl - shell command to create a real-time task
 *------------------------------------------------------------
 */
 

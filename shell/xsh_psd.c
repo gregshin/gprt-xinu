@@ -1,4 +1,4 @@
-/* xsh_ps.c - xsh_ps */
+/* xsh_psd.c - xsh_psd */
 
 #include <xinu.h>
 #include <stdio.h>

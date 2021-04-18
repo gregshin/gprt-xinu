@@ -1,4 +1,4 @@
-/* xsh_create.c - xsh_create */
+/* xsh_deadset.c - xsh_deadset */
 
 #include <xinu.h>
 #include <stdio.h>
@@ -12,7 +12,7 @@
 
 shellcmd xsh_deadset(int nargs, char *args[])
 {
-    deadset();
+    deadset(); // calls the deadset function
 
     return 0;
 }

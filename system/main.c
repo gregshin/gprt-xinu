@@ -3,8 +3,6 @@
 #include <xinu.h>
 #include <stdio.h>
 
-pid32 pid;
-
 int main(int argc, char **argv)
 {
 	uint32 retval;

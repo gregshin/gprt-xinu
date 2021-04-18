@@ -1,4 +1,4 @@
-/* xsh_create.c - xsh_create */
+/* xsh_chprio.c - xsh_chprio */
 
 #include <xinu.h>
 #include <stdio.h>
